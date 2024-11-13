@@ -55,7 +55,7 @@ include("koneksi.php");
                     <img src="../src/img/admin.webp">
                 </button>
                 <div x-show="isOpen" class="absolute w-32 bg-white rounded-lg shadow-lg py-2 mt-16">
-                    <a href="logout.php" class="block px-4 py-2      hover:text-[#3d68ff]">Logout</a>
+                    <a href="index.php" class="block px-4 py-2      hover:text-[#3d68ff]">Logout</a>
                 </div>
             </div>
         </header>
@@ -88,7 +88,7 @@ include("koneksi.php");
                     Calendar
                 </a>
 
-                <a href="logout.php"
+                <a href="../index.html"
                     class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 hover:bg-[#1947ee]"">
                     <i class=" fas fa-sign-out-alt mr-3"></i>
                     Logout
@@ -139,7 +139,7 @@ include("koneksi.php");
 
                                     ?>
                                     <tr class="hover:bg-grey-lighter">
-                                        <td class="py-4 px-6 border-b border-grey-light"><?= $row['nim'] ?></td>>
+                                        <td class="py-4 px-6 border-b border-grey-light"><?= $row['nim'] ?></td>
                                         <td class="py-4 px-6 border-b border-grey-light"><?= $row['nama'] ?>
                                         </td>
                                         <td class="py-4 px-6 border-b border-grey-light"><?= $row['tanggal_lahir'] ?></td>
